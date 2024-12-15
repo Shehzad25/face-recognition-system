@@ -6,12 +6,6 @@ import face_recognition
 # Load known faces and encodings
 def load_known_faces():
     # Load and encode known faces
-    pooja_image = face_recognition.load_image_file("dataset/pooja/WhatsApp Image 2024-10-19 at 14.29.30_c507b937.jpg")
-    pooja_encoding = face_recognition.face_encodings(pooja_image)[0]
-    
-    sneha_image = face_recognition.load_image_file("dataset/sneha/WhatsApp Image 2024-10-19 at 14.30.08_04d5bf4c.jpg")
-    sneha_encoding = face_recognition.face_encodings(sneha_image)[0]
-
     shehzad_image = face_recognition.load_image_file("dataset/shehzad/my.jpg")
     shehzad_encoding = face_recognition.face_encodings(shehzad_image)[0]
     
